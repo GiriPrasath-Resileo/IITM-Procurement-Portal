@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.card {
+  padding: 2em;
+  margin: 2em 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.card button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card button:hover {
+  background-color: #21a1c4;
+}
+
+.info {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.info h2 {
+  margin-top: 0;
+  color: #61dafb;
+}
+
+.info p {
+  margin: 0.5em 0;
+  font-size: 18px;
+}
